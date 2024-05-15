@@ -1,0 +1,34 @@
+1) Example for below topic both c++ and python.
+    OOP:
+    1) Class
+    2) Object
+    3) Methods
+    4) Inheritance
+    5) Encaptulation
+    6) Polymorphism
+    7) Abstraction
+2) abstract vs interface
+3) virtual keyword
+4) OOP: https://www.interviewbit.com/oops-interview-questions/
+5) Python: https://www.interviewbit.com/python-interview-questions/
+
+
+----------------------------------------------------------------------
+Quiz Task: https://forms.gle/G5JfeQsNejRV5mB17
+
+
+
+2)abstract vs interface
+Abstract classes
+Provide a base class for concrete subclasses to inherit from. Abstract classes can have constructors, implemented and abstract methods, and all the features of a normal class. However, you cannot create an object of an abstract class, you can only extend it and override its methods.
+
+Interfaces
+Define a set of methods that a class must implement. Interfaces can only have abstract methods and method declarations. You can instantiate an interface, but when implemented, you must override all its methods
+
+3)virtual keyword
+A virtual function (also known as virtual methods) is a member function that is declared within a base class and is re-defined (overridden) by a derived class. When you refer to a derived class object using a pointer or a reference to the base class, you can call a virtual function for that object and execute the derived class’s version of the method.
+
+Virtual functions ensure that the correct function is called for an object, regardless of the type of reference (or pointer) used for the function call.
+They are mainly used to achieve Runtime polymorphism/method overriding.
+Functions are declared with a virtual keyword in a base class.
+The resolving of a function call is done at runtime.
